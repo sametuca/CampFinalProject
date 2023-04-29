@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistence_CampFinalProject.Repositories
 {
-    public class BrandReadRepository : ReadRepository<Brand>, IBrandReadRepository
+    public class BrandReadRepository : Rea  dRepository<Brand>, IBrandReadRepository
     {
         public BrandReadRepository(ShoppingListDbContext context) : base(context)
         {
